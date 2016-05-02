@@ -1,0 +1,287 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 133930669,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am not logged in",
+            "match": {
+              "location": "RegisterUserFeature.notLoggedIn()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "User registers with valid data",
+        "description": "",
+        "id": "register-user;user-registers-with-valid-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 79645,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I sign up with valid user data",
+            "match": {
+              "location": "RegisterUserFeature.I_sign_up_with_valid_user_data()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 24632,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should see a successful user registration message",
+            "match": {
+              "location": "RegisterUserFeature.I_should_see_a_successful_user_registration_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 33254,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am not logged in",
+            "match": {
+              "location": "RegisterUserFeature.notLoggedIn()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "User registers with invalid email",
+        "description": "",
+        "id": "register-user;user-registers-with-invalid-email",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 30791,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I sign up with an invalid email",
+            "match": {
+              "location": "RegisterUserFeature.I_sign_up_with_an_invalid_email()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 27506,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I should see an invalid email message",
+            "match": {
+              "location": "RegisterUserFeature.I_should_see_an_invalid_email_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 43928,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am not logged in",
+            "match": {
+              "location": "RegisterUserFeature.notLoggedIn()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "User registers without password",
+        "description": "",
+        "id": "register-user;user-registers-without-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 29970,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I sign up without a password",
+            "match": {
+              "location": "RegisterUserFeature.I_sign_up_without_a_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 21758,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I should see a missing password message",
+            "match": {
+              "location": "RegisterUserFeature.I_should_see_a_missing_password_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 44748,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am not logged in",
+            "match": {
+              "location": "RegisterUserFeature.notLoggedIn()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "User registers without password confirmation",
+        "description": "",
+        "id": "register-user;user-registers-without-password-confirmation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 30380,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I sign up without a password confirmation",
+            "match": {
+              "location": "RegisterUserFeature.I_sign_up_without_a_password_confirmation()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 32022,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I should see a missing password confirmation message",
+            "match": {
+              "location": "RegisterUserFeature.I_should_see_a_missing_password_confirmation_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 45160,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am not logged in",
+            "match": {
+              "location": "RegisterUserFeature.notLoggedIn()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 25,
+        "name": "User registers with mismatched password and confirmation",
+        "description": "",
+        "id": "register-user;user-registers-with-mismatched-password-and-confirmation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 45570,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I sign up with a mismatched password confirmation",
+            "match": {
+              "location": "RegisterUserFeature.I_sign_up_with_a_mismatched_password_confirmation()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 27095,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I should see a mismatched password message",
+            "match": {
+              "location": "RegisterUserFeature.I_should_see_a_mismatched_password_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Register user",
+    "description": "As a user\r\nI want to be able to register user\r\nSo that I get access to protected sections of the site",
+    "id": "register-user",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/register_user.feature"
+  }
+]
